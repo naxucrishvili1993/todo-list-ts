@@ -3,7 +3,7 @@ import { Todo } from "../model";
 import { MdDone } from "react-icons/md";
 import "./styles.css";
 import { ChangeEvent, FormEvent, useEffect, useRef, useState } from "react";
-import { Draggable, DraggableProvided } from "react-beautiful-dnd";
+import { Draggable } from "react-beautiful-dnd";
 
 type Props = {
 	todo: Todo;
